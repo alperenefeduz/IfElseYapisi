@@ -273,23 +273,59 @@ namespace IfElseYapisi
             //}
 
             //
-            Console.WriteLine("Lütfen Mevsim Giriniz");
-            string mevsim =(Console.ReadLine());
-            if (mevsim == "Kış")
+            //Console.WriteLine("Lütfen Mevsim Giriniz");
+            //string mevsim =(Console.ReadLine());
+            //if (mevsim == "Kış")
+            //{
+            //    Console.WriteLine("ARALIK, OCAK, ŞUBAT");
+            //}
+            //else if (mevsim == "İlkbahar")
+            //{
+            //    Console.WriteLine("Mart, Nisan, Mayıs");
+            //}
+            //else if (mevsim == "Yaz")
+            //{
+            //    Console.WriteLine("Haziran, Temmuz, Ağustos");
+            //}
+            //else if (mevsim == "Sonbahar")
+            //{
+            //    Console.WriteLine("Eylül, Ekim, Kasım");
+            //}
+
+            Console.WriteLine("Lütfen sayı giriniz");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+
+            if (sayi == 1)
             {
-                Console.WriteLine("ARALIK, OCAK, ŞUBAT");
+                Console.WriteLine("Pazartesi");
             }
-            else if (mevsim == "İlkbahar")
+            else if(sayi == 2) 
             {
-                Console.WriteLine("Mart, Nisan, Mayıs");
+                Console.WriteLine("Salı");
             }
-            else if (mevsim == "Yaz")
+            else if (sayi == 3)
             {
-                Console.WriteLine("Haziran, Temmuz, Ağustos");
+                Console.WriteLine("Çarşamba");
             }
-            else if (mevsim == "Sonbahar")
+            else if (sayi == 4)
             {
-                Console.WriteLine("Eylül, Ekim, Kasım");
+                Console.WriteLine("Perşembe");
+            }
+            else if (sayi == 5)
+            {
+                Console.WriteLine("Cuma");
+            }
+            else if (sayi == 6)
+            {
+                Console.WriteLine("Cumartesi");
+            }
+            else if (sayi == 7)
+            {
+                Console.WriteLine("Pazar");
+            }
+            else
+            {
+                Console.WriteLine("Yanlış Sayı girdiniz");
             }
             #endregion
 
