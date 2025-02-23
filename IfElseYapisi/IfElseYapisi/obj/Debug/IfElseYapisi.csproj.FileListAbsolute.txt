@@ -5,3 +5,10 @@ C:\Users\User\source\repos\IfElseYapisi\IfElseYapisi\obj\Debug\IfElseYapisi.cspr
 C:\Users\User\source\repos\IfElseYapisi\IfElseYapisi\obj\Debug\IfElseYapisi.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\IfElseYapisi\IfElseYapisi\obj\Debug\IfElseYapisi.exe
 C:\Users\User\source\repos\IfElseYapisi\IfElseYapisi\obj\Debug\IfElseYapisi.pdb
+C:\Users\User\Documents\GitHub\IfElseYapisi\IfElseYapisi\IfElseYapisi\bin\Debug\IfElseYapisi.exe.config
+C:\Users\User\Documents\GitHub\IfElseYapisi\IfElseYapisi\IfElseYapisi\bin\Debug\IfElseYapisi.exe
+C:\Users\User\Documents\GitHub\IfElseYapisi\IfElseYapisi\IfElseYapisi\bin\Debug\IfElseYapisi.pdb
+C:\Users\User\Documents\GitHub\IfElseYapisi\IfElseYapisi\IfElseYapisi\obj\Debug\IfElseYapisi.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\IfElseYapisi\IfElseYapisi\IfElseYapisi\obj\Debug\IfElseYapisi.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\IfElseYapisi\IfElseYapisi\IfElseYapisi\obj\Debug\IfElseYapisi.exe
+C:\Users\User\Documents\GitHub\IfElseYapisi\IfElseYapisi\IfElseYapisi\obj\Debug\IfElseYapisi.pdb

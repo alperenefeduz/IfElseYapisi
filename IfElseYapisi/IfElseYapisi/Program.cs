@@ -216,38 +216,83 @@ namespace IfElseYapisi
             //ankara adana istanbul için plaka kodu bu desin (ile göre plaka)
 
 
-            Console.WriteLine("Girmek İstediğiniz İli Giriniz");
-            string il = (Console.ReadLine());
+            //Console.WriteLine("Girmek İstediğiniz İli Giriniz");
+            //string il = (Console.ReadLine());
 
-            if (il == "Adana")
-            {
-                Console.WriteLine("Bu plaka kodu 01'dir");
-            }
-            else if (il == "Ankara")
-            {
-                Console.WriteLine("Bu plaka kodu 06'dır");
-            }
-            else if (il == "İstanbul")
-            {
-                Console.WriteLine("Bu plaka kodu 34'dür");
-            }
-            else if (il == "Eskişehir")
-            {
-                Console.WriteLine("Bu plaka kodu 26'dır");
-            }
-            else
-            {
-                Console.WriteLine("Bu plaka kodu farklı ilindir");
-            }
+            //if (il == "Adana")
+            //{
+            //    Console.WriteLine("Bu plaka kodu 01'dir");
+            //}
+            //else if (il == "Ankara")
+            //{
+            //    Console.WriteLine("Bu plaka kodu 06'dır");
+            //}
+            //else if (il == "İstanbul")
+            //{
+            //    Console.WriteLine("Bu plaka kodu 34'dür");
+            //}
+            //else if (il == "Eskişehir")
+            //{
+            //    Console.WriteLine("Bu plaka kodu 26'dır");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Bu plaka kodu farklı ilindir");
+            //}
 
+
+
+            //konsola  girilen sayınıın 2 ile bölümünden kalan 0 ise çift değilse tek sayıdır yazsın
+
+            //Console.WriteLine("Lütfen bir sayı giriniz");
+            //int sayi = Convert.ToInt32(Console.ReadLine());
+            //if (sayi % 2 == 0 && sayi % 3 == 0)
+            //{
+            //    Console.WriteLine("Oldu Canım");
+            //}
+            //else
+            //{ 
+            //    Console.WriteLine("Bu da mı gol değil ");
+            //}
+            //kat sayısı deneme
+            //if (sayi % 2 == 0 && sayi % 3 == 0)
+            //{
+            //    Console.WriteLine("Hem 2 Hem 3'ün katıdır");
+            //}
+            //else if (sayi %2==0)
+            //{
+            //    Console.WriteLine("2'nin katı");
+            //}
+            //else if (sayi % 3 == 0)
+            //{
+            //    Console.WriteLine("3'ün katı");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("2 veya 3'ün katı değildir");
+            //}
+
+            //
+            Console.WriteLine("Lütfen Mevsim Giriniz");
+            string mevsim =(Console.ReadLine());
+            if (mevsim == "Kış")
+            {
+                Console.WriteLine("ARALIK, OCAK, ŞUBAT");
+            }
+            else if (mevsim == "İlkbahar")
+            {
+                Console.WriteLine("Mart, Nisan, Mayıs");
+            }
+            else if (mevsim == "Yaz")
+            {
+                Console.WriteLine("Haziran, Temmuz, Ağustos");
+            }
+            else if (mevsim == "Sonbahar")
+            {
+                Console.WriteLine("Eylül, Ekim, Kasım");
+            }
             #endregion
 
-            #region deneme
-
-
-
-
-            #endregion
         }
     }
 }
