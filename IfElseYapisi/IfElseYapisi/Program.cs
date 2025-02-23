@@ -231,10 +231,15 @@ namespace IfElseYapisi
             {
                 Console.WriteLine("Bu plaka kodu 34'dür");
             }
+            else if (il == "Eskişehir")
+            {
+                Console.WriteLine("Bu plaka kodu 26'dır");
+            }
             else
             {
                 Console.WriteLine("Bu plaka kodu farklı ilindir");
             }
+
             #endregion
 
             #region deneme
